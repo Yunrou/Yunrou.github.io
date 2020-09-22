@@ -29,12 +29,10 @@ a {
     text-align: left;
     /*border: solid 1px #869c94;*/
 }
-.header {
-    background-color: #f5e7d9;
-}
+
 .profile-img {
     display: block;
-    width: 250px; height: 250px;
+    width: 300px; height: 300px;
     margin: auto;
     border-radius: 100%
     vertical-align: top;
@@ -192,7 +190,8 @@ a {
 
   .profile-img {
     display: block;
-    width: 40%; height: auto;
+    width: 60%; height: auto;
+    border-radius: 100%;
   }
   .main {
     width: 100%; height: auto;
