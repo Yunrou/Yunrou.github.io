@@ -35,7 +35,6 @@ a {
 .profile-img {
     display: block;
     width: 230px; height: 230px;
-    margin: 30px auto;
     border-radius: 50%;
 }
 
@@ -58,7 +57,8 @@ a {
 }
 
 .nav-logo {
-    padding: 10px 0px 15px 70px;
+    padding: 0px 0px 15px 70px;
+    top: -20px;
     width: 300px;
     letter-spacing: 2px;
     font-size: 60px;
@@ -192,6 +192,7 @@ a {
   .profile-img {
     display: block;
     width: 60%; height: auto;
+    margin: 30px auto;
     border-radius: 50%;
   }
   .main {
