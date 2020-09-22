@@ -30,7 +30,7 @@ export default class Home extends Component {
                     </p>
                     
                     <p>
-                    Furthermore, knowledge in aesthetics and psychology engages me.
+                    Furthermore, knowledge in aesthetics and psychology rather engages me.
                     Reading psychological ariticles and books makes me
                     become a more mature individual with robust mindset.
                     Appreciating artworks inspires and intrigues me to come up with creative ideas,
@@ -41,7 +41,7 @@ export default class Home extends Component {
                     
                     <p>
                     I love challenges and the sense of accomplishment. 
-                    Just take risks and go for it!
+                    I usually tell myself, Just take risks and go for it!
                     </p>
                 </div>
               </div>
