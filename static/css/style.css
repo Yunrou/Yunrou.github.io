@@ -34,7 +34,7 @@ a {
     display: block;
     width: 300px; height: 300px;
     margin: auto;
-    border-radius: 100%
+    border-radius: 50%
     vertical-align: top;
 }
 
@@ -191,7 +191,7 @@ a {
   .profile-img {
     display: block;
     width: 60%; height: auto;
-    border-radius: 100%;
+    border-radius: 50%;
   }
   .main {
     width: 100%; height: auto;
