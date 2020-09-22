@@ -33,6 +33,7 @@ a {
     display: block;
     width: 250px; height: 250px;
     margin: 20px auto;
+    border-radius: 50%;
 }
 
 .container {
