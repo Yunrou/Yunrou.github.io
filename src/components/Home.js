@@ -6,7 +6,9 @@ export default class Home extends Component {
       <Fragment>
           <div className="main-container">
             <div className="main">
-              <img src="./static/img/rou04.jpg" className="profile-img"/>
+              <div className="header">
+                <img src="./static/img/rou04.jpg" className="profile-img"/>
+              </div>
               <div className="block">
                 <div className="title">ABOUT ME</div>
                 <div className="content">
