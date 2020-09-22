@@ -26,7 +26,7 @@ a {
 .main {
     width: 90%; height: auto;
     margin: 150px 50px 10px 50px;
-    text-align: left;
+    text-align: center;
     /*border: solid 1px #869c94;*/
     background-color: #f5e7d9;
 }
@@ -86,14 +86,14 @@ a {
     text-align: left;
 }
 .side-title {
-    padding: 5px 0px;
+    padding: 0px 0px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: 400;
 }
 .side-content {
-    padding: 5px 0px;
+    padding: 10px 0px;
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: 400;
@@ -113,6 +113,7 @@ a {
 }
 .block {
     padding: 50px 80px;
+    text-align: left;
 }
 .title {
     padding: 10px 0px 15px 0px;
