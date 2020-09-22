@@ -34,9 +34,13 @@ class Website extends Component {
     return (
       <Fragment>
         <div className="container">
-        
+          
           <div className="sidenav">
-
+            <MediaQuery minDeviceWidth={1224}>
+              <div className="header">
+                <img src="./static/img/profile_img.JPG" className="profile-img"/>
+              </div>
+            </MediaQuery>
             <div className="nav-logo">
               YUN ROU LIN
               <a className="option" onClick={this.handleCollapse}><i className="fa fa-bars"></i></a>
