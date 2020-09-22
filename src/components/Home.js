@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import ReactDOM from 'react-dom';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 export default class Home extends Component {
