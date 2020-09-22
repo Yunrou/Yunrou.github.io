@@ -25,7 +25,7 @@ a {
 }
 .main {
     width: 90%; height: auto;
-    margin: 150px 50px 10px 50px;
+    margin: 150px 50px 20px 50px;
     text-align: left;
     /*border: solid 1px #869c94;*/
 }
@@ -196,7 +196,7 @@ a {
   }
   .main {
     width: 100%; height: auto;
-    margin: 0px; padding: 20px 0px;
+    margin: 0px; padding: 0px;
     text-align: center;
   }
   .block {
