@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-
-export default class Main extends Component {
+export default class Resume extends Component {
   render() {
     
     return (
@@ -8,7 +7,7 @@ export default class Main extends Component {
           <div className="main-container">
             <div className="main">
               <div className="block">
-              <div className="title">EDUCATION</div>
+                <div className="title">EDUCATION</div>
                 <div className="content"></div>
               </div>
               <div className="block">

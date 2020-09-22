@@ -4,6 +4,8 @@ import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 import Home from './Home';
 import Contact from './Contact';
+import Resume from './Resume';
+
 class Website extends Component {
   
   constructor(props) {
@@ -42,6 +44,7 @@ class Website extends Component {
             <MediaQuery minDeviceWidth={1224}>
             <div className="options">
               <a data-tab="home" className="sideoption" onClick={this.handleClickActiveTab}>Home</a>
+              <a data-tab="resume" className="sideoption" onClick={this.handleClickActiveTab}>Resume</a>
               <Contact />
             </div>
             </MediaQuery>
@@ -49,6 +52,7 @@ class Website extends Component {
             <MediaQuery maxDeviceWidth={1224}>
             <div className={"options" + (this.state.collapse==true? " in": "")}>
               <a data-tab="home" className="sideoption" onClick={this.handleClickActiveTab}>Home</a>
+              <a data-tab="resume" className="sideoption" onClick={this.handleClickActiveTab}>Resume</a>
               <a data-tab="contact" className="sideoption" onClick={this.handleClickActiveTab}>Contact</a>
             </div>
             </MediaQuery>
@@ -57,10 +61,13 @@ class Website extends Component {
           </div>
           <div className="tab-content-container">
             <div className={"tab-pane" + (this.state.activeTab=="home"? " active":"") } id="home">
-            <Home />
+              <Home />
             </div>
-            <div className={"tab-pane" + (this.state.activeTab=="contact"? " active":"") } id="home">
-            <Contact />
+            <div className={"tab-pane" + (this.state.activeTab=="resume"? " active":"") } id="resume">
+              <Resume />
+            </div>
+            <div className={"tab-pane" + (this.state.activeTab=="contact"? " active":"") } id="contact">
+              <Contact />
             </div>
           </div>
         </div>

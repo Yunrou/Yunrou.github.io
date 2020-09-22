@@ -24,7 +24,7 @@ a {
     cursor: pointer;
 }
 .header {
-    width: 90%; height: 250px;
+    width: 90%; height: auto;
     margin: 150px 50px 10px 50px;
     text-align: left;
     /*border: solid 1px #869c94;*/
@@ -38,8 +38,8 @@ a {
     vertical-align: top;
 }
 .header-content {
-    display: inline-block;
-    width: 300px; height: 250px;
+    display: block;
+    width: 300px; height: auto;
     padding: 50px 80px;
     vertical-align: top;
 }
