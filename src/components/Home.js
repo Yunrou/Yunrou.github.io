@@ -7,7 +7,7 @@ export default class Home extends Component {
           <div className="main-container">
             <div className="main">
               <div className="header">
-                <img src="./static/img/rou04.jpg" className="profile-img"/>
+                <img src="./static/img/profile_img.jpg" className="profile-img"/>
               </div>
               <div className="block">
                 <div className="title">ABOUT ME</div>
