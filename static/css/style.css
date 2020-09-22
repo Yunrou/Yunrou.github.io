@@ -30,11 +30,11 @@ a {
     /*border: solid 1px #869c94;*/
 }
 .header {
-    padding: 60px 0px 0px 80px;
+    padding: 60px 0px 10px 80px;
 }
 .profile-img {
     display: block;
-    width: 230px; height: 230px;
+    width: 220px; height: 220px;
     border-radius: 50%;
 }
 
