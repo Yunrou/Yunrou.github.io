@@ -6,9 +6,12 @@ export default class Home extends Component {
       <Fragment>
           <div className="main-container">
             <div className="main">
-              <div className="header">
-                <img src="./static/img/profile_img.JPG" className="profile-img"/>
-              </div>
+
+              <MediaQuery maxDeviceWidth={1224}>
+                <div className="header">
+                  <img src="./static/img/profile_img.JPG" className="profile-img"/>
+                </div>
+              </MediaQuery>
               <div className="block">
                 <div className="title">ABOUT ME</div>
                 <div className="content">
