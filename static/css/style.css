@@ -26,12 +26,12 @@ a {
 .main {
     width: 90%; height: auto;
     margin: 150px 50px 10px 50px;
-    text-align: center;
+    text-align: left;
     /*border: solid 1px #869c94;*/
     background-color: #f5e7d9;
 }
 .profile-img {
-    display: inline-block;
+    display: block;
     width: 250px; height: 250px;
     margin: auto;
     border-radius: 100%
@@ -112,8 +112,7 @@ a {
     display: block;
 }
 .block {
-    padding: 50px 80px;
-    text-align: left;
+    padding: 20px 80px;
 }
 .title {
     padding: 10px 0px 15px 0px;
