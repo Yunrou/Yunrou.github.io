@@ -29,6 +29,9 @@ a {
     text-align: left;
     /*border: solid 1px #869c94;*/
 }
+.header {
+    padding: 100px 0px 0px 85px;
+}
 .profile-img {
     display: block;
     width: 250px; height: 250px;
