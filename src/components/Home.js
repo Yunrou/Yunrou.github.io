@@ -21,7 +21,7 @@ export default class Home extends Component {
                     </p>
                     
                     <p>
-                    I am interested in Data Science--including Artificial Intelligence, Data Mining, Data Visualization, and so on and so forth.
+                    I am interested in data science--including artificial intelligence, data mining, data visualization, and so on and so forth.
                     I enjoy acquiring new knowledge, 
                     yet I still have a long way to go due to a wide variety of knowledge in the field of computer science.
                     "Learning is a lifelong journey!" 
@@ -41,7 +41,7 @@ export default class Home extends Component {
                     
                     <p>
                     I love challenges and the sense of accomplishment. 
-                    I usually tell myself, Just take risks and go for it!
+                    I usually tell myself, just take risks and go for it!
                     </p>
                 </div>
               </div>

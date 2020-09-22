@@ -29,15 +29,6 @@ a {
     text-align: left;
     /*border: solid 1px #869c94;*/
 }
-.header {
-    padding: 80px 0px 10px 80px;
-}
-.profile-img {
-    display: block;
-    width: 220px; height: 220px;
-    border-radius: 50%;
-}
-
 .container {
     width: 1080px; height: auto;
     min-height: 100%;
@@ -55,7 +46,14 @@ a {
     z-index: 3;
     font-family: Avenir, Avenir Next, san-serif;
 }
-
+.header {
+    padding: 80px 0px 10px 80px;
+}
+.profile-img {
+    display: block;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+}
 .nav-logo {
     padding: 10px 0px 15px 70px;
     width: 300px;
@@ -80,7 +78,6 @@ a {
 .sideoption:hover {
     color: #111;
 }
-
 .contact {
     display: block;
     padding: 15px 40px 15px 70px;
@@ -187,7 +184,6 @@ a {
     width: 100%; height: auto;
     margin-top: 50px; margin-left: 0px;
   }
-
   .profile-img {
     display: block;
     width: 60%; height: auto;
