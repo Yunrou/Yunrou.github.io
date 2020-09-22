@@ -57,11 +57,10 @@ a {
 }
 
 .nav-logo {
-    padding: 0px 0px 15px 70px;
-    top: -20px;
+    padding: 10px 0px 15px 70px;
     width: 300px;
     letter-spacing: 2px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
     font-family: Avenir, Avenir Next, san-serif;
 }
