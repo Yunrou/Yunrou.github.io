@@ -18,18 +18,14 @@ export default class Home extends Component {
                   <p>
                     Hi, I am Yun-Rou (Lilian) Lin, a computer science student, 
                     currently studying for the master degree at National Chiao Tung University in Taiwan.
-                    </p>
-                    
-                    <p>
+                    <br/><br/>
                     I am interested in data science--including artificial intelligence, data mining, data visualization, and so on and so forth.
                     I enjoy acquiring new knowledge, 
                     yet I still have a long way to go due to a wide variety of knowledge in the field of computer science.
                     "Learning is a lifelong journey!" 
                     In addition, via participating in social engagements and cooperation projects in university,
                     I become an astute and open-minded team worker. 
-                    </p>
-                    
-                    <p>
+                    <br/><br/>
                     Furthermore, knowledge in aesthetics and psychology rather engages me.
                     Reading psychological ariticles and books makes me
                     become a more mature individual with robust mindset.
@@ -37,12 +33,10 @@ export default class Home extends Component {
                     and be more sensitive to the surroundings.
                     Consequently, I am capable of conquering difficulties without fear
                     and develop innovative thoughts.
-                    </p>
-                    
-                    <p>
+                    <br/><br/>
                     I love challenges and the sense of accomplishment. 
                     I usually tell myself, just take risks and go for it!
-                    </p>
+                  </p>
                 </div>
               </div>
             </div>
