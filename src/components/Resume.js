@@ -8,19 +8,19 @@ export default class Resume extends Component {
             <div className="main">
               <div className="block">
                 <div className="title">EDUCATION</div>
-                <div className="subtitle">Master of Science&nbsp</div>
-                <div className="subtitle year">(2019-present)</div>
+                <div className="subtitle">Master of Science</div>
                 <div className="content">
                   <p>
+                    (2019-present)
                     National Chiao Tung University - Taiwan<br/>
                     Dept. of Computer Science & Inst. of Multimedia Engineering<br/>
                     Academics: GPA 4.22/4.3
                   </p>
                 </div>
-                <div className="subtitle">Bachelor of Science&nbsp</div>
-                <div className="subtitle year">(2015-2019)</div>
+                <div className="subtitle">Bachelor of Science</div>
                 <div className="content">
                   <p>
+                    (2015-2019)
                     National Chiao Tung University - Taiwan<br/>
                     Dept. of Computer Science<br/>
                     Academics: GPA 3.9/4.3
