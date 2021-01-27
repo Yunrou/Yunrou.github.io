@@ -117,7 +117,7 @@ p {
     padding: 20px 80px;
 }
 .subblock {
-    padding: 15px 0px
+    padding: 8px 0px
 }
 .title {
     padding: 10px 0px 15px 0px;
@@ -126,7 +126,6 @@ p {
     letter-spacing: 2px;
 }
 .subtitle {
-    margin: 0px 0px;
     display: inline-block;
     font-size: 18px;
     font-weight: 550;
