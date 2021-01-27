@@ -116,6 +116,9 @@ p {
 .block {
     padding: 20px 80px;
 }
+.subblock {
+    padding: 15px 0px
+}
 .title {
     padding: 10px 0px 15px 0px;
     font-size: 20px;
@@ -130,7 +133,6 @@ p {
     letter-spacing: 1px;
 }
 .content {
-    margin: 0px 0px;
     font-size: 16px;
     font-weight: normal;
     letter-spacing: 1px;
