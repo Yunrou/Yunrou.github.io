@@ -37,7 +37,7 @@ export default class Home extends Component {
                     Consequently, I am capable of conquering difficulties without fear
                     and develop innovative thoughts.
                     <br/><br/>
-                    Besides, I am looking forward to working as a data scientist after graduation.
+                    Besides, I look forward to working as a data scientist after graduation.
                   </p>
                 </div>
               </div>
