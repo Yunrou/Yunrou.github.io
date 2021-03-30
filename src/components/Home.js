@@ -26,7 +26,7 @@ export default class Home extends Component {
                     <br/><br/>
                     In addition, via participating in social engagements and cooperation projects in university,
                     I became an adaptable and open-minded team player. In a team, I would like to listen to others' 
-                    suggestions, thoughts, and ideas; Also, expressing my own opinions. 
+                    suggestions, thoughts, and ideas; also, expressing my own opinions. 
                     I believe a frank and effective discussion could accelerate our working progress, and thereby making a better decision.
                     <br/><br/>
                     Furthermore, knowledge in aesthetics and psychology rather engages me.
