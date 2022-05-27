@@ -72,7 +72,7 @@ p {
 }
 .sideoption {
     display: block;
-    padding: 15px 40px 15px 70px;
+    padding: 12px 40px 12px 70px;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
@@ -128,25 +128,29 @@ p {
 }
 .subtitle {
     /*display: inline-block;*/
-    /*font-family: "Lato";*/
+    font-family: "Lato";
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-.year {
-    float: right;
-}
 .medium {
     display: block;
-    font-size: 13px;
+    font-family: "Lato";
+    font-size: 14px;
     font-weight: normal;
     letter-spacing: 1px;
 }
 .small {
     display: block;
-    font-size: 12px;
+    font-family: "Lato";
+    font-size: 13px;
     font-weight: normal;
     letter-spacing: 1px;
+}
+@media only screen and (min-width: 900px) {
+  .year {
+    float: right;
+  }
 }
 @media only screen and (max-width: 1224px) {
   /* For mobile phones: */
@@ -228,8 +232,5 @@ p {
     padding: 20px 0px;
     text-align: left;
     vertical-align: top;
-  }
-  .year {
-    display: inline-block;
   }
 }

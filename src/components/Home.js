@@ -14,7 +14,7 @@ export default class Home extends Component {
               </MediaQuery>
               <div className="block">
                 <div className="title">ABOUT ME</div>
-                <div className="content">
+                <div className="medium">
                   <p>
                     Hi, I am LILIAN! 
                     <br/><br/>
