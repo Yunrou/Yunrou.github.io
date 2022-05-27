@@ -73,15 +73,18 @@ class Website extends Component {
             
           </div>
           <div className="tab-content-container">
-            <div ref={this.homeRef} className={"tab-pane" + (this.state.activeTab=="home"? " active":"") } id="home">
+            <div ref={this.homeRef} className="tab-pane active" id="home">
               <Home />
             </div>
-            <div ref={this.resumeRef} className={"tab-pane" + (this.state.activeTab=="resume"? " active":"") } id="resume">
+            <div ref={this.resumeRef} className="tab-pane active" id="resume">
               <Resume />
             </div>
-            <div ref={this.contactRef} className={"tab-pane" + (this.state.activeTab=="contact"? " active":"") } id="contact">
+
+            <MediaQuery maxDeviceWidth={1224}>
+            <div ref={this.contactRef} className="tab-pane active" id="contact">
               <Contact />
             </div>
+            </MediaQuery>
           </div>
         </div>
       </Fragment>
