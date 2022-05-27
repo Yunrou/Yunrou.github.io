@@ -47,7 +47,7 @@ export default class Resume extends Component {
                   <div className="small">Sep 2019 - Apr 2022</div>
                   <img src="../../static/img/mvcolor-demo.gif" className="present-img" />
                   <div className="medium">
-                  <ul >
+                  <ul className="mylist">
                     <li>Developed an interactive recommendation system, MVcolor, that models the colorization of a multi-view
 visualization system.</li>
                     <li>Formulated a grouping problem into <strong>Set Partitioning Problem</strong> solved by <strong>Gurobi</strong> optimization.</li>

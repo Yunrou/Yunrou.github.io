@@ -62,9 +62,8 @@ p {
 .present-img {
     display: block;
     width: 500px;
-    text-align: center;
     border-radius: 5px;
-    margin: 5px 20px 0px 20px;
+    margin: 5px 0px 0px 0px;
 }
 .nav-logo {
     padding: 10px 0px 15px 70px;
@@ -193,6 +192,9 @@ p {
     background-color: #536e4b;
     color: #eee;
 
+}
+.mylist {
+    padding-left: 0;
 }
 @media only screen and (min-width: 500px) {
   .year {
