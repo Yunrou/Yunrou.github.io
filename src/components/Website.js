@@ -43,7 +43,7 @@ class Website extends Component {
     return (
       <Fragment>
         <div className="container">
-          
+          <img src="./static/img/illustration.png" className="foot-img"/>
           <div className="sidenav">
             <MediaQuery minDeviceWidth={1224}>
               <div className="header">

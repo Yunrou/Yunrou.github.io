@@ -59,6 +59,13 @@ p {
     width: 220px; height: 220px;
     border-radius: 50%;
 }
+.foot-img {
+    position: fixed;
+    width: 150px; height: 150px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
+}
 .present-img {
     display: block;
     width: 500px;
