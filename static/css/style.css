@@ -15,7 +15,7 @@ html, body{
 }
 body {
     background-color: #66805e;
-    color: #465442;
+    color: #c5c9b9;/*#465442*/
 }
 #root {
     height: 100%;
@@ -38,7 +38,7 @@ p {
     width: 1080px; height: auto;
     min-height: 100%;
     margin: 0 auto;
-    background-color: #f8f8f8;
+    background-color: #3f4d3c;/*#465442;*/
     box-shadow: 0px 0px 40px 8px rgba(0,0,0,0.15);
 
 }
@@ -66,7 +66,7 @@ p {
     font-size: 50px;
     font-weight: 800;
     font-family: Avenir, Avenir Next, san-serif;
-    color: #556b4f;
+    color: #a8ad9a;
 }
 .option {
     display: none;
@@ -82,7 +82,7 @@ p {
     font-weight: 400;
 }
 .sideoption:hover {
-    color: #111;
+    color: #d7d9d2;
 }
 .contact {
     display: block;
