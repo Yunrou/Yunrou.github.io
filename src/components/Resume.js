@@ -38,12 +38,12 @@ export default class Resume extends Component {
                 <div className="subblock">
                   <div className="subtitle">Minister of Artistic Design Department</div>
                   <div className="year">2017 - 2018</div>
-                  <div className="content">NCTU - Student Association of Computer Science Dept.</div>
+                  <div className="medium">NCTU - Student Association of Computer Science Dept.</div>
                 </div>
                 <div className="subblock">
                   <div className="subtitle">Director</div>
                   <div className="year">2016 - 2017</div>
-                  <div className="content">NCTU - UU Club</div>
+                  <div className="medium">NCTU - UU Club</div>
                 </div>
               </div>
               <div className="block">
