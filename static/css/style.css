@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+  
 * {
     /*border: solid 1px black;*/
-    font-family: Quicksand, Avenir, Avenir Next, san-serif, Lato, Helvetica Neue, Helvetica, Arial, LiHei Pro Medium, Microsoft JhengHei, san-serif;
+    font-family: "Quicksand", Avenir, Avenir Next, san-serif, Lato, Helvetica Neue, Helvetica, Arial, LiHei Pro Medium, Microsoft JhengHei, san-serif;
     font-weight: normal;
     letter-spacing: 0px;
     position: relative;
