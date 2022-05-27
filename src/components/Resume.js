@@ -98,8 +98,8 @@ visualization system.</li>
               <div className="block">
                 <div className="title">LANGUAGES</div>
                 <div className="subblock">
-                  <div className="medium"><strong>Chinese:</strong> Native</div>
-                  <div className="medium"><strong>English:</strong> B2  TOEFL iBT: 89 (R24/L23/S21/W21)</div>
+                  <div className="medium">Chinese:Native</div>
+                  <div className="medium">English:B2  TOEFL iBT: 89 (R24/L23/S21/W21)</div>
                 </div>
               </div>
 
@@ -111,9 +111,21 @@ visualization system.</li>
                   <div className="skilltag">Python</div>
                   <div className="skilltag">R</div>
                   <div className="skilltag">MATLAB</div>
+
                   <div className="medium">Web Development: </div>
+                  <div className="skilltag">HTML/CSS</div>
+                  <div className="skilltag">Javescript</div>
+                  <div className="skilltag">React</div>
+                  <div className="skilltag">Django/Django REST Framework</div>
+
                   <div className="medium">Visualization: </div>
+                  <div className="skilltag">Vega-Lite</div>
+                  <div className="skilltag">D3.js</div>
+                  <div className="skilltag">Matplotlib</div>
+
                   <div className="medium">Technology: </div>
+                  <div className="skilltag">Git/GitHub</div>
+                  <div className="skilltag">Latex</div>
                 </div>
               </div>
 
