@@ -129,7 +129,7 @@ p {
 .subtitle {
     /*display: inline-block;*/
     float:  left;
-    font-family: "Lato Black";
+    font-family: "Lato";
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -228,5 +228,8 @@ p {
     padding: 20px 0px;
     text-align: left;
     vertical-align: top;
+  }
+  .year {
+    display: inline-block;
   }
 }
