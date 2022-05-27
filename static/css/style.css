@@ -61,7 +61,7 @@ p {
 }
 .foot-img {
     width: 15vw; height: 15vw;
-    margin: -150px auto 20px auto;
+    margin: -150px 40px 20px auto;
 }
 .present-img {
     display: block;
