@@ -38,7 +38,7 @@ p {
     width: 1080px; height: auto;
     min-height: 100%;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #252525;
     box-shadow: 0px 0px 40px 8px rgba(0,0,0,0.15);
 
 }
@@ -133,7 +133,7 @@ p {
     color: #ccc;
 }
 .textbutton:hover {
-    background-color: #252525;
+    background-color: #222;
 }
 .subblock {
     padding: 8px 0px
