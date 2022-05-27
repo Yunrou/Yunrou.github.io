@@ -43,7 +43,6 @@ class Website extends Component {
     return (
       <Fragment>
         <div className="container">
-          <img src="./static/img/illustration.png" className="foot-img"/>
           <div className="sidenav">
             <MediaQuery minDeviceWidth={1224}>
               <div className="header">
@@ -79,7 +78,7 @@ class Website extends Component {
             <div ref={this.resumeRef} className="tab-pane active" id="resume">
               <Resume />
             </div>
-
+            <img src="./static/img/illustration.png" className="foot-img"/>
             <MediaQuery maxDeviceWidth={1224}>
             <div ref={this.contactRef} className="tab-pane active" id="contact">
               <Contact />

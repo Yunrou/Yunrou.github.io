@@ -60,11 +60,8 @@ p {
     border-radius: 50%;
 }
 .foot-img {
-    position: fixed;
-    width: 150px; height: 150px;
-    bottom: 0px;
-    right: 0px;
-    z-index: 3;
+    width: 15vw; height: 15vw;
+    margin: 30px auto 20px auto;
 }
 .present-img {
     display: block;
@@ -207,6 +204,9 @@ p {
   .year {
     float: right;
   }
+  .foot-img {
+    float: right;
+  }
 }
 @media only screen and (max-width: 1224px) {
   /* For mobile phones: */
@@ -274,6 +274,11 @@ p {
     max-width: 200px; max-height: 200px;
     margin: 30px auto 20px auto;
     border-radius: 50%;
+  }
+  .foot-img {
+    display: block;
+    width: 40%; height: auto;
+    margin: 30px auto 20px auto;
   }
   .present-img {
     width: 95%;
