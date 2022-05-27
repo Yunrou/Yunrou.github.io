@@ -6,6 +6,7 @@ export default class Resume extends Component {
       <Fragment>
           <div className="main-container">
             <div className="main">
+              <a href='../../static/pdf/resume.pdf' download>Click to download CV</a>
               <div className="block">
                 <div className="title">EDUCATION</div>
                 <div className="subblock">
