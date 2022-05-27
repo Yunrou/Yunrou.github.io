@@ -20,7 +20,7 @@ export default class Home extends Component {
                     <br/><br/>
                     I am a programmer graduate from NYCU, TW, with a passion for data science and multimedia engineering.
                     In graduate school, my research focused on the color encodings for multi-view visualizations (e.g., dashboards), 
-                    and I developed an interactive recommendation tool that mainly deals with the color consistency for MVs.
+                    and I developed an interactive recommendation tool that mainly deals with the color consistency.
                     <br/><br/>
                     "Learning is a lifelong journey!" I enjoy acquiring new knowledge yet still have a long way to go.
                     <br/><br/>
