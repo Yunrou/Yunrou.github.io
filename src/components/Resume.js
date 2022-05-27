@@ -98,8 +98,12 @@ visualization system.</li>
               <div className="block">
                 <div className="title">LANGUAGES</div>
                 <div className="subblock">
-                  <div className="language">Chinese</div><div className="score">Native</div>
-                  <div className="language">English</div><div className="score">B2&emsp;TOEFL iBT: 89 (R24/L23/S21/W21)</div>
+                  <div className="medium">
+                    <div className="language">Chinese</div><div className="score">Native</div>
+                  </div>
+                  <div className="medium">
+                    <div className="language">English</div><div className="score">B2&emsp;TOEFL iBT: 89 (R24/L23/S21/W21)</div>
+                  </div>
                 </div>
               </div>
 
