@@ -59,6 +59,13 @@ p {
     width: 220px; height: 220px;
     border-radius: 50%;
 }
+.present-img {
+    display: block;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 20px 0px 20px;
+}
 .nav-logo {
     padding: 10px 0px 15px 70px;
     width: 300px;
@@ -144,6 +151,7 @@ p {
     font-weight: bold;
     letter-spacing: 0.5px;
     text-decoration: none;
+    color: #d4d9d2;
 }
 .medium {
     display: block;
@@ -157,6 +165,14 @@ p {
     font-size: 13px;
     font-weight: normal;
     letter-spacing: 1px;
+}
+.skilltag {
+    display: inline-block;
+    padding: 3px 5px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background-color: #66805e;
+    color: #333;
 }
 @media only screen and (min-width: 500px) {
   .year {

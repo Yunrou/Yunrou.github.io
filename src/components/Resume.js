@@ -45,7 +45,7 @@ export default class Resume extends Component {
                   <div className="subtitle">MVcolor: Recommendation of Color Encodings for Multi-View Visualizations</div>
                   <div className="medium">Graphical and Perception Lab</div>
                   <div className="small">Sep 2019 - Apr 2022</div>
-                  <img src="../../static/img/mvcolor.gif"  width="250" />
+                  <img src="../../static/img/mvcolor-demo.gif" className="present-img" />
                   <div className="medium">
                   <ul >
                     <li>Developed an interactive recommendation system, MVcolor, that models the colorization of a multi-view
@@ -94,9 +94,29 @@ visualization system.</li>
                   <div className="medium">NCTU - UU Club</div>
                 </div>
               </div>
+
               <div className="block">
-              <div className="title">SKILLS</div>
+                <div className="title">LANGUAGES</div>
+                <div className="subblock">
+                  <div className="medium"><strong>Chinese:</strong> Native</div>
+                  <div className="medium"><strong>English:</strong> B2  TOEFL iBT: 89 (R24/L23/S21/W21)</div>
+                </div>
               </div>
+
+              <div className="block">
+                <div className="title">SKILLS</div>
+                <div className="subblock">
+                  <div className="medium">Programming Languages: </div>
+                  <div className="skilltag">C/C++</div>
+                  <div className="skilltag">Python</div>
+                  <div className="skilltag">R</div>
+                  <div className="skilltag">MATLAB</div>
+                  <div className="medium">Web Development: </div>
+                  <div className="medium">Visualization: </div>
+                  <div className="medium">Technology: </div>
+                </div>
+              </div>
+
             </div>
           </div>
       </Fragment>
