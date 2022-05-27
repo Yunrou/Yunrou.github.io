@@ -15,15 +15,24 @@ class Website extends Component {
       collapse: false,
     }
     this.handleCollapse = this.handleCollapse.bind(this);
-    this.handleClickActiveTab = this.handleClickActiveTab.bind(this);
+    this.handleScrollToElement = this.handleScrollToElement.bind(this);
+    this.homeRef = React.createRef();
+    this.resumeRef = React.createRef();
+    this.contactRef = React.createRef();
     // const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
     // const isDesktopOrLaptop = useMediaQuery({ query: '(min-device-width: 1224px)' });
 
   }
-  handleClickActiveTab(e) {
+  handleScrollToElement(e) {
     const activeTab = e.target.getAttribute("data-tab");
     this.setState({ activeTab: activeTab,
-            collapse: false });
+                    collapse: false });
+    if (activeTab == "home")
+      window.scrollTo(0, this.homeRef.current.offsetTop);
+    else if (activeTab == "resume")
+      window.scrollTo(0, this.resumeRef.current.offsetTop);
+    else if (activeTab == "contact")
+      window.scrollTo(0, this.contactRef.current.offsetTop);
   }
   handleCollapse(e) {
     this.setState({ collapse: !this.state.collapse });
@@ -47,30 +56,30 @@ class Website extends Component {
             </div>
             <MediaQuery minDeviceWidth={1224}>
             <div className="options">
-              <a data-tab="home" className="sideoption" onClick={this.handleClickActiveTab}>Home</a>
-              <a data-tab="resume" className="sideoption" onClick={this.handleClickActiveTab}>Resume</a>
+              <a data-tab="home" className="sideoption" onClick={this.handleScrollToElement}>Home</a>
+              <a data-tab="resume" className="sideoption" onClick={this.handleScrollToElement}>Resume</a>
               <Contact />
             </div>
             </MediaQuery>
             
             <MediaQuery maxDeviceWidth={1224}>
             <div className={"options" + (this.state.collapse==true? " in": "")}>
-              <a data-tab="home" className="sideoption" onClick={this.handleClickActiveTab}>Home</a>
-              <a data-tab="resume" className="sideoption" onClick={this.handleClickActiveTab}>Resume</a>
-              <a data-tab="contact" className="sideoption" onClick={this.handleClickActiveTab}>Contact</a>
+              <a data-tab="home" className="sideoption" onClick={this.handleScrollToElement}>Home</a>
+              <a data-tab="resume" className="sideoption" onClick={this.handleScrollToElement}>Resume</a>
+              <a data-tab="contact" className="sideoption" onClick={this.handleScrollToElement}>Contact</a>
             </div>
             </MediaQuery>
 
             
           </div>
           <div className="tab-content-container">
-            <div className={"tab-pane" + (this.state.activeTab=="home"? " active":"") } id="home">
+            <div ref={this.homeRef} className={"tab-pane" + (this.state.activeTab=="home"? " active":"") } id="home">
               <Home />
             </div>
-            <div className={"tab-pane" + (this.state.activeTab=="resume"? " active":"") } id="resume">
+            <div ref={this.resumeRef} className={"tab-pane" + (this.state.activeTab=="resume"? " active":"") } id="resume">
               <Resume />
             </div>
-            <div className={"tab-pane" + (this.state.activeTab=="contact"? " active":"") } id="contact">
+            <div ref={this.contactRef} className={"tab-pane" + (this.state.activeTab=="contact"? " active":"") } id="contact">
               <Contact />
             </div>
           </div>

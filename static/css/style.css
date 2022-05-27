@@ -108,7 +108,7 @@ p {
     vertical-align:top;
 }
 .tab-pane {
-    display: none;
+    display: block;
 }
 .tab-pane.active {
     display: block;
