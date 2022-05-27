@@ -38,6 +38,49 @@ export default class Resume extends Component {
                   </div>
                 </div>
               </div>
+
+              <div className="block">
+                <div className="title">Research</div>
+                <div className="subblock">
+                  <div className="subtitle">MVcolor: Recommendation of Color Encodings for Multi-View Visualizations</div>
+                  <div className="medium">Graphical and Perception Lab</div>
+                  <div className="small">Sep 2019 - Apr 2022</div>
+                  <img src="../../static/img/mvcolor.gif"  width="250" />
+                  <div className="medium">
+                  <ul >
+                    <li>Developed an interactive recommendation system, MVcolor, that models the colorization of a multi-view
+visualization system.</li>
+                    <li>Formulated a grouping problem into <strong>Set Partitioning Problem</strong> solved by <strong>Gurobi</strong> optimization.</li>
+                    <li>Ensured color discriminability using a <strong>Genetic Algorithm</strong>.</li>
+                    <li>Used <strong>React</strong> for front-end and <strong>Django/Django REST Framework</strong> for back-end.</li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="block">
+                <div className="title">Course Highlight</div>
+                <div className="subblock">
+                  <a className="subtitle" href="https://github.com/Yunrou/boardgame-2p">Artificial Intelligence</a>
+                  <div className="year">Python</div>
+                  <div className="medium">
+                    <p>
+                    Designed a two-player board game AI agent. Implemented iterative deepening minimax with alpha-beta pruning, 
+                    and devised a heuristic function. Achieved rank 2 in class.
+                    </p>
+                  </div>
+                </div>
+                <div className="subblock">
+                  <div className="subtitle">Design Studies - Creative Minds and Methods</div>
+                  <div className="year">Osaka University</div>
+                  <div className="medium">
+                    <p>An international online course with design practices of 9 journals and 2 term projects. 
+                    Comprehended Papanek’s function complex and the seven stages of the design process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="block">
                 <div className="title">LEADERSHIP</div>
                 <div className="subblock">

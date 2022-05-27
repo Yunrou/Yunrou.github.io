@@ -82,7 +82,7 @@ p {
     font-weight: 400;
 }
 .sideoption:hover {
-    color: #ddd;
+    color: #f8f8f8;
 }
 .contact {
     display: block;
@@ -143,6 +143,7 @@ p {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    text-decoration: none;
 }
 .medium {
     display: block;
@@ -201,7 +202,6 @@ p {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     overflow: hidden;
-    background-color: #252525;
   }
   .options.in {
     display: block;
