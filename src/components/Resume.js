@@ -10,6 +10,8 @@ export default class Resume extends Component {
                 <a className="textbutton" href='../../static/pdf/resume.pdf' download>
                   <i className="fa fa-arrow-down icon" ></i> Click to download CV
                 </a>
+              </div>
+              <div className="block">
                 <div className="title">EDUCATION</div>
                 <div className="subblock">
                   <div className="subtitle">Master of Computer Science</div>
