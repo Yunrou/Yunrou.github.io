@@ -139,11 +139,13 @@ p {
     float: right;
 }
 .medium {
+    display: inline-block;
     font-size: 13px;
     font-weight: normal;
     letter-spacing: 1px;
 }
 .small {
+    display: inline-block;
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 1px;
