@@ -10,7 +10,7 @@ html, body{
     padding: 0px; margin: 0px;
     font-size: 16px;
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;*/
     scroll-behavior: smooth;
 }
 body {
@@ -123,17 +123,28 @@ p {
 .title {
     padding: 10px 0px 15px 0px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 2px;
 }
 .subtitle {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 550;
+    /*display: inline-block;*/
+    float:  left;
+    font-family: "Lato Black";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.year {
+    float: right;
+}
+.medium {
+    font-size: 13px;
+    font-weight: normal;
     letter-spacing: 1px;
 }
-.content {
-    font-size: 16px;
+.small {
+    font-size: 12px;
     font-weight: normal;
     letter-spacing: 1px;
 }

@@ -9,69 +9,41 @@ export default class Resume extends Component {
               <div className="block">
                 <div className="title">EDUCATION</div>
                 <div className="subblock">
-                  <div className="subtitle">Master of Science</div>
-                  <div className="content">
+                  <div className="subtitle">Master of Computer Science</div>
+                  <div className="year">2019 - 2022</div>
+                  <div className="medium">National Yang Ming Chiao Tung University - TW</div>
+                  <div className="small">
                     <p>
-                      2019 - present<br/>
-                      National Chiao Tung University - Taiwan<br/>
-                      Dept. of Computer Science & Inst. of Multimedia Engineering<br/>
-                      Academics: GPA 4.22/4.3
+                      Academics: GPA 4.28/4.3
+                      <br/>
+                      The Phi Tau Phi Scholastic Honor Society of the Republic of China Honorary Membership
                     </p>
                   </div>
                 </div>
                 <div className="subblock">
-                  <div className="subtitle">Bachelor of Science</div>
-                  <div className="content">
+                  <div className="subtitle">Bachelor of Computer Science</div>
+                  <div className="year">2015 - 2019</div>
+                  <div className="medium">National Chiao Tung University - TW</div>
+                  <div className="small">
                     <p>
-                      2015 - 2019<br/>
-                      National Chiao Tung University - Taiwan<br/>
-                      Dept. of Computer Science<br/>
                       Academics: GPA 3.9/4.3
+                      <br/>
+                      Teaching Assistant (TA): Numerical Method, 2019
                     </p>
                   </div>
                 </div>
               </div>
               <div className="block">
-                <div className="title">WORK EXPERIENCE</div>
-                <div className="subblock">
-                  <div className="subtitle">Teaching Assistant</div>
-                  <div className="content">
-                    <p>
-                      Feb 2019 - Jun 2019<br/>
-                      National Chiao Tung University - Taiwan<br/>
-                      Course: Numerical Method
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="block">
-                <div className="title">LEADERSHIP EXPERIENCE</div>
+                <div className="title">LEADERSHIP</div>
                 <div className="subblock">
                   <div className="subtitle">Minister of Artistic Design Department</div>
-                  <div className="content">
-                    <p>
-                      2017 - 2018<br/>
-                      Student Association of Computer Science Dept. @NCTU
-                    </p>
-                  </div>
+                  <div className="year">2017 - 2018</div>
+                  <div className="content">NCTU - Student Association of Computer Science Dept.</div>
                 </div>
                 <div className="subblock">
                   <div className="subtitle">Director</div>
-                  <div className="content">
-                    <p>
-                      2016 - 2017<br/>
-                      UU Club @NCTU
-                    </p>
-                  </div>
-                </div>
-                <div className="subblock">
-                  <div className="subtitle">Vice Coordinator</div>
-                  <div className="content">
-                    <p>
-                      2017 Winter<br/>
-                      UU Club Winter Camp @NCTU
-                    </p>
-                  </div>
+                  <div className="year">2016 - 2017</div>
+                  <div className="content">NCTU - UU Club</div>
                 </div>
               </div>
               <div className="block">
