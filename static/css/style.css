@@ -14,7 +14,7 @@ html, body{
     scroll-behavior: smooth;
 }
 body {
-    background-color: #333;
+    background-color: #66805e;
     color: #d4d9d2;/*#465442*/
 }
 #root {
@@ -38,7 +38,7 @@ p {
     width: 1080px; height: auto;
     min-height: 100%;
     margin: 0 auto;
-    background-color: #3f4d3c;/*#465442;*/
+    background-color: #333;
     box-shadow: 0px 0px 40px 8px rgba(0,0,0,0.15);
 
 }
@@ -117,6 +117,12 @@ p {
 }
 .block {
     padding: 20px 80px;
+}
+.textbutton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #d4d9d2;
+    text-decoration: none;
 }
 .subblock {
     padding: 8px 0px
