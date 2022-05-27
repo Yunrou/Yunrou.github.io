@@ -8,7 +8,7 @@ export default class AboutMe extends Component {
         <div className="contact">
           <div className="side-title">Contact <i class="fa fa-envelope-o" aria-hidden="true"></i></div>
           <div className="side-content">
-          Email: yunrou.cs04@g2.nctu.edu.tw
+          Email: yunrou.cs08@nycu.edu.tw
           </div>
         </div>
       </Fragment>
