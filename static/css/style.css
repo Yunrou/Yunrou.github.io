@@ -121,8 +121,12 @@ p {
 .textbutton {
     padding: 10px 20px;
     border-radius: 5px;
-    border-color: #d4d9d2;
+    border: 1.5px solid #ccc;
     text-decoration: none;
+    color: #ccc;
+}
+.textbutton:hover {
+    background-color: #252525;
 }
 .subblock {
     padding: 8px 0px
@@ -173,7 +177,7 @@ p {
   .sidenav {
     width: 100%; height: auto;
     position: fixed;
-    background-color: #f8f8f8;
+    background-color: #333;
   }
   .nav-logo {
     padding: 10px 0px 10px 0px;
@@ -197,7 +201,7 @@ p {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     overflow: hidden;
-    background-color: #f8f8f8;
+    background-color: #252525;
   }
   .options.in {
     display: block;
@@ -211,7 +215,6 @@ p {
   .contact {
     padding: 15px 0px 15px 0px;
     text-align: center;
-    background-color: #f8f8f8;
   }
   .side-title {
     text-transform: none;
