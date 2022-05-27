@@ -133,7 +133,8 @@ p {
     color: #ccc;
 }
 .textbutton:hover {
-    background-color: #222;
+    background-color: #ccc;
+    color: #41543c;/*#536e4b;*/
 }
 .subblock {
     padding: 8px 0px
@@ -160,6 +161,22 @@ p {
     font-weight: normal;
     letter-spacing: 1px;
 }
+.language {
+    display: inline-block;
+    width: 80px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+.score {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 .small {
     display: block;
     font-size: 13px;
@@ -168,7 +185,7 @@ p {
 }
 .skilltag {
     display: inline-block;
-    padding: 3px 5px;
+    padding: 3px 10px;
     margin: 5px 7px 7px 0px;
     border-radius: 13px;
     font-size: 13px;
