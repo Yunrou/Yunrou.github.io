@@ -18,7 +18,7 @@ export default class Home extends Component {
                   <p>
                     Hi, I am LILIAN! 
                     <br/><br/>
-                    I am a programmer graduate from NYCU, TW, with a passion for data science and multimedia engineering.
+                    I am a programmer who graduated from NYCU, TW, with a passion for data science and multimedia engineering.
                     In graduate school, my research focused on the color encodings for multi-view visualizations (e.g., dashboards), 
                     and I developed an interactive recommendation tool that mainly deals with color consistency and color discriminability.
                     <br/><br/>
@@ -29,7 +29,7 @@ export default class Home extends Component {
                     suggestions, comments, and ideas and also express my own opinions. 
                     <br/><br/>
                     Aside from being a software developer, I want to be a creator to create values and make contribution, like Hayao Miyazaki, 
-                    seeking inspirations, identifying the needs and limitations, and producing innovate products with clear concepts and definition.
+                    seeking inspirations, identifying the needs and limitations, and producing innovative products with clear concepts and definition.
                   </p>
                 </div>
               </div>
