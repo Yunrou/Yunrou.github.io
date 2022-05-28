@@ -101,14 +101,14 @@ p {
 }
 .external-link {
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 0px;
     color: #d4d9d2;
 }
 .linkedin {
     font-size: 31px;
 }
 .github {
-    font-size: 32px;
+    font-size: 31px;
 }
 .side-title {
     padding: 0px 0px;
@@ -306,5 +306,8 @@ p {
     padding: 20px 0px;
     text-align: left;
     vertical-align: top;
+  }
+  .external-link {
+    margin: 0 5px 0 5px;
   }
 }
