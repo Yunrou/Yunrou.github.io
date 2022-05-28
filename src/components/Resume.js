@@ -71,7 +71,19 @@ visualization system.</li>
                   </div>
                 </div>
                 <div className="subblock">
+                  <div className="subtitle">Interaction Design and Virtual Reality</div>
+                  <div className="year">C#</div>
+                  <img src="../../static/img/idvr-demo.gif" className="present-img" />
+                  <div className="medium">
+                    <p>
+                    Designed a VR game, Cushion Crush. In a 3-member team, I was in charge of 1) the program that connects VR devices and the game, 
+                    2) scene build, and 3) demo video production.
+                    </p>
+                  </div>
+                </div>
+                <div className="subblock">
                   <div className="subtitle">Design Studies - Creative Minds and Methods</div>
+                  <img src="../../static/img/OU.gif" className="present-img" />
                   <div className="year">Osaka University</div>
                   <div className="medium">
                     <p>An international online course with design practices of 9 journals and 2 term projects. 
