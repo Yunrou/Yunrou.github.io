@@ -83,8 +83,8 @@ visualization system.</li>
                 </div>
                 <div className="subblock">
                   <div className="subtitle">Design Studies - Creative Minds and Methods</div>
-                  <img src="../../static/img/OU.gif" className="present-img" />
                   <div className="year">Osaka University</div>
+                  <img src="../../static/img/OU.gif" className="present-img" />
                   <div className="medium">
                     <p>An international online course with design practices of 9 journals and 2 term projects. 
                     Comprehended Papanek’s function complex and the seven stages of the design process.
