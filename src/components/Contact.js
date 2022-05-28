@@ -15,7 +15,6 @@ export default class AboutMe extends Component {
           <a className="external-link" href="https://github.com/Yunrou">
             <i className="fa fa-github-square github" aria-hidden="true"></i>
           </a>
-          <i className="fa fa-github-square" aria-hidden="true" style="font-size:48px;color:red"></i>
           </div>
         </div>
       </Fragment>
