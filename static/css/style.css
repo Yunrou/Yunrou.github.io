@@ -83,7 +83,7 @@ p {
 }
 .sideoption {
     display: block;
-    padding: 10px 40px 10px 70px;
+    padding: 8px 40px 8px 70px;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
@@ -104,13 +104,13 @@ p {
     margin: 0 10px 0 0;
     border-radius: 3px;
     font-size: 24px;
+    background-color: white;
+    width: 30px; height: 30px;
 }
 .linkedin {
-    background-color: white;
     color: #0072B1;
 }
 .github {
-    background-color: white;
     color: black;
 }
 .side-title {
