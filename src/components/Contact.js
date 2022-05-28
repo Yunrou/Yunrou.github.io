@@ -10,10 +10,10 @@ export default class AboutMe extends Component {
           <div className="side-content">Email: yunrou.cs08@nycu.edu.tw</div>
           <div className="side-content">
           <a className="external-link" href="https://www.linkedin.com/in/yunrou/">
-            <i className="fa fa-linkedin-square linkedin" aria-hidden="true"></i>
+            <i className="fa fa-linkedin-square linkedin"></i>
           </a>
           <a className="external-link" href="https://github.com/Yunrou">
-            <i className="fa fa-github-square github" aria-hidden="true"></i>
+            <i className="fa fa-github-square github"></i>
           </a>
           </div>
         </div>
