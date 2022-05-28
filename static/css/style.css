@@ -83,7 +83,7 @@ p {
 }
 .sideoption {
     display: block;
-    padding: 12px 40px 12px 70px;
+    padding: 10px 40px 10px 70px;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
@@ -92,12 +92,25 @@ p {
     font-weight: 400;
 }
 .sideoption:hover {
-    color: #f8f8f8;
+    color: #a5b8a3;
 }
 .contact {
     display: block;
     padding: 15px 40px 15px 70px;
     text-align: left;
+}
+.external-link {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+}
+.linkedin {
+    background-color: #0072B1;
+    color: white;
+}
+.github {
+    background-color: black;
+    color: white;
 }
 .side-title {
     padding: 0px 0px;
