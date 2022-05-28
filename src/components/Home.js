@@ -18,7 +18,7 @@ export default class Home extends Component {
                   <p>
                     Hi, I am LILIAN! 
                     <br/><br/>
-                    I am a programmer who graduated from NYCU, TW, with a passion for data science and multimedia engineering.
+                    I am a programmer with a passion for data science and multimedia engineering.
                     In graduate school, my research focused on the color encodings for multi-view visualizations (e.g., dashboards), 
                     and I developed an interactive recommendation tool that mainly deals with color consistency and color discriminability.
                     <br/><br/>
