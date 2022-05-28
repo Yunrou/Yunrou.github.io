@@ -61,7 +61,7 @@ visualization system.</li>
               <div className="block">
                 <div className="title">Course Highlight</div>
                 <div className="subblock">
-                  <a className="subtitle" href="https://github.com/Yunrou/boardgame-2p">Artificial Intelligence</a>
+                  <a className="subtitle" href="https://github.com/Yunrou/boardgame-2p">Artificial Intelligence <i className="fa fa-link" ></i></a>
                   <div className="year">Python</div>
                   <div className="medium">
                     <p>
