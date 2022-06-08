@@ -151,6 +151,7 @@ visualization system.</li>
                   <div className="medium">Technology: </div>
                   <div className="skilltag">Git/GitHub</div>
                   <div className="skilltag">Latex</div>
+                  <div className="skilltag">Unity</div>
                 </div>
               </div>
 
