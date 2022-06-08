@@ -43,7 +43,7 @@ export default class Resume extends Component {
                 <div className="title">Research</div>
                 <div className="subblock">
                   <div className="subtitle">MVcolor: Recommendation of Color Encodings for Multi-View Visualizations</div>
-                  <div className="medium">Graphical and Perception Lab</div>
+                  <div className="medium">Graphics and Perception Lab</div>
                   <div className="small">Sep 2019 - Apr 2022</div>
                   <img src="../../static/img/mvcolor-demo.gif" className="present-img" />
                   <div className="medium">
@@ -59,7 +59,7 @@ visualization system.</li>
               </div>
 
               <div className="block">
-                <div className="title">Course Highlight</div>
+                <div className="title">Courses & Additional Projects</div>
                 <div className="subblock">
                   <a className="subtitle" href="https://github.com/Yunrou/boardgame-2p">Artificial Intelligence <i className="fa fa-link" ></i></a>
                   <div className="year">Python</div>
@@ -88,6 +88,15 @@ visualization system.</li>
                   <div className="medium">
                     <p>An international online course with design practices of 9 journals and 2 term projects. 
                     Comprehended Papanek’s function complex and the seven stages of the design process.
+                    </p>
+                  </div>
+                </div>
+                <div className="subblock">
+                  <div className="subtitle">LINE Bot - Vocabulary Learning Assistant</div>
+                  <div className="year">Python, LINE Bot, AWS</div>
+                  <img src="../../static/img/linebot-demo.gif" className="present-img-mobile" />
+                  <div className="medium">
+                    <p>Deployed a LINE Bot on AWS Lambda that helps learn TOEFL vocabulary.
                     </p>
                   </div>
                 </div>
