@@ -92,7 +92,7 @@ visualization system.</li>
                   </div>
                 </div>
                 <div className="subblock">
-                  <div className="subtitle">LINE Bot - Vocabulary Learning Assistant</div>
+                  <a className="subtitle" href="https://github.com/Yunrou/voc-learn-bot">LINE Bot - Vocabulary Learning Assistant <i className="fa fa-link" ></i></a>
                   <div className="year">Python, LINE Bot, AWS</div>
                   <img src="../../static/img/linebot-demo.gif" className="present-img-mobile" />
                   <div className="medium">
