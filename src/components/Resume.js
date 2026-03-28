@@ -40,16 +40,16 @@ export default class Resume extends Component {
               </div>
 
               <div className="block">
-                <div className="title">Experience</div>
+                <div className="title">EXPERIENCE</div>
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc - Application Engineering, Staff Engineer</div>
                   <div className="year">Jan 2025 - Present</div>
                   <div className="medium">
                   <ul className="mylist">
-                    <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
-                    <li>Prototyped a Runset Generator for simple non-tabu rules from Design Rule Manual with usage of <strong>Lark parser and transformer</strong></li>
-                    <li>Integrated flow of timing-aware fill with experience in <strong>RC extraction</strong> and <strong>STA</strong> in both Python and C/C++ version</li>
-                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimize it through chunking to ensure efficient runtime</li>
+                    <li>Delivered ICV FEOL dummy training from runset structure, layer operations to unified fill</li>
+                    <li>Automated a Runset Generator for simple non-tabu DRC rules from DRM with the use of <strong>Lark parser and transformer</strong></li>
+                    <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to fill in both Python and C/C++ version</li>
+                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimizes through chunking</li>
                     <li>Delivered GH Copilot training to 60+ signoff team members </li>
                   </ul>
                   </div>
@@ -68,7 +68,7 @@ export default class Resume extends Component {
               </div>
 
               <div className="block">
-                <div className="title">Publication</div>
+                <div className="title">PUBLICATION</div>
                 <div className="subblock">
                   <a className="subtitle" href="https://ieeexplore.ieee.org/document/11021053">Navigating Color Constraints in Multi-View Visualizations with MVcolor<i className="fa fa-link" ></i></a>
                   <div className="year">2025 IEEE PacificVis</div>
@@ -76,7 +76,7 @@ export default class Resume extends Component {
               </div>
 
               <div className="block">
-                <div className="title">Research</div>
+                <div className="title">RESEARCH</div>
                 <div className="subblock">
                   <div className="subtitle">MVcolor: Recommendation of Color Encodings for Multi-View Visualizations</div>
                   <div className="medium">Graphics and Perception Lab</div>
@@ -95,7 +95,7 @@ visualization system.</li>
               </div>
 
               <div className="block">
-                <div className="title">Courses & Additional Projects</div>
+                <div className="title">COURSES & PROJECTS</div>
                 <div className="subblock">
                   <a className="subtitle" href="https://github.com/Yunrou/boardgame-2p">Artificial Intelligence <i className="fa fa-link" ></i></a>
                   <div className="year">Python</div>
