@@ -44,6 +44,7 @@ export default class Resume extends Component {
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc</div>
                   <div className="medium">Application Engineering, Staff Engineer</div>
+                  <div className="medium">
                   <div className="year">Jan 2025 - Present</div>
                   <ul className="mylist">
                     <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
@@ -52,9 +53,10 @@ export default class Resume extends Component {
                     <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimize it through chunking to ensure efficient runtime</li>
                     <li>Delivered GH Copilot training to 60+ signoff team members </li>
                   </ul>
+                  </div>
                   <div className="medium">Application Engineering, Sr. Engineer</div>
-                  <div className="year">Aug 2022 - Jan 2025</div>
                   <div className="medium">
+                  <div className="year">Aug 2022 - Jan 2025</div>
                   <ul className="mylist">
                     <li>ICV runset coding and qualification for dummy fill insertion in advanced process.</li>
                     <li>Optimized flow that achieves <strong>10X runset coding effort improvement</strong>.</li>
@@ -144,6 +146,11 @@ visualization system.</li>
 
               <div className="block">
                 <div className="title">LEADERSHIP</div>
+                  <div className="subblock">
+                  <div className="subtitle">Vice Mentor</div>
+                  <div className="year">2017 - 2018</div>
+                  <div className="medium">NCTU Blue Gear Program</div>
+                </div>
                 <div className="subblock">
                   <div className="subtitle">Minister of Artistic Design Department</div>
                   <div className="year">2017 - 2018</div>
