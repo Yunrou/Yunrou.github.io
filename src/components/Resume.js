@@ -44,8 +44,8 @@ export default class Resume extends Component {
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc</div>
                   <div className="medium">Application Engineering, Staff Engineer</div>
+                  <div className="medium"><div className="year">Jan 2025 - Present</div></div>
                   <div className="medium">
-                  <div className="year">Jan 2025 - Present</div>
                   <ul className="mylist">
                     <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
                     <li>Prototyped a Runset Generator for simple non-tabu rules from Design Rule Manual with usage of <strong>Lark parser and transformer</strong></li>
