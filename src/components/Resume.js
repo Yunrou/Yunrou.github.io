@@ -40,6 +40,41 @@ export default class Resume extends Component {
               </div>
 
               <div className="block">
+                <div className="title">Experience</div>
+                <div className="subblock">
+                  <div className="subtitle">Synopsys Inc</div>
+                  <div className="medium">Application Engineering, Staff Engineer</div>
+                  <div className="year">Jan 2025 - Present</div>
+                    <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
+                    <li>Prototyped a Runset Generator for simple non-tabu rules from Design Rule Manual with usage of <strong>Lark parser and transformer</strong></li>
+                    <li>Integrated flow of timing-aware fill with experience in <strong>RC extraction</strong> and <strong>STA</strong> in both Python and C/C++ version</li>
+                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimize it through chunking to ensure efficient runtime</li>
+                    <li>Delivered GH Copilot training to 60+ signoff team members </li>
+                  <div className="medium">Application Engineering, Sr. Engineer</div>
+                  <div className="year">Aug 2022 - Jan 2025</div>
+                  <div className="medium">
+                  <ul className="mylist">
+                    <li>ICV runset coding and qualification for dummy fill insertion in advanced process.</li>
+                    <li>Optimized flow that achieves <strong>10X runset coding effort improvement</strong>.</li>
+                    <li>Developed utilities that reduce 30% runtime and improve QoR in FEOL dummy</li>
+                    <li>Identified and debugged design rule violations before tapeout, analyzed root causes, and implemented effective solutions</li>
+                    <li>Collaborated with the foundry and R&D to define requirements and qualify for new features</li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="block">
+                <div className="title">Publication</div>
+                <div className="subblock">
+                  <div className="subtitle">Navigating Color Constraints in Multi-View Visualizations with MVcolor</div>
+                  <a className="subtitle" href="https://ieeexplore.ieee.org/document/11021053">Navigating Color Constraints in Multi-View Visualizations with MVcolor<i className="fa fa-link" ></i></a>
+                  <div className="year">Python</div>
+                  <div className="small">2025 IEEE PacificVis</div>
+                </div>
+              </div>
+
+              <div className="block">
                 <div className="title">Research</div>
                 <div className="subblock">
                   <div className="subtitle">MVcolor: Recommendation of Color Encodings for Multi-View Visualizations</div>
@@ -92,6 +127,11 @@ visualization system.</li>
                   </div>
                 </div>
                 <div className="subblock">
+                  <div className="subtitle">Intoduction to Psychology -- Keith Campbell</div>
+                  <div className="year">Peterson Academy</div>
+                  <img src="../../static/img/psychology-demo.gif" className="present-img" />
+                </div>
+                <div className="subblock">
                   <a className="subtitle" href="https://github.com/Yunrou/voc-learn-bot">LINE Bot - Vocabulary Learning Assistant <i className="fa fa-link" ></i></a>
                   <div className="year">Python, LINE Bot, AWS</div>
                   <img src="../../static/img/linebot-demo.gif" className="present-img-mobile" />
@@ -125,6 +165,9 @@ visualization system.</li>
                   <div className="medium">
                     <div className="language">English</div><div className="score">B2&emsp;TOEFL iBT: 89 (R24/L23/S21/W21)</div>
                   </div>
+                  <div className="medium">
+                    <div className="language">Japanese</div><div className="score">A2</div>
+                  </div>
                 </div>
               </div>
 
@@ -134,9 +177,10 @@ visualization system.</li>
                   <div className="medium">Programming Languages: </div>
                   <div className="skilltag">C/C++</div>
                   <div className="skilltag">Python</div>
+                  <div className="skilltag">PERL</div>
                   <div className="skilltag">R</div>
                   <div className="skilltag">MATLAB</div>
-
+                  
                   <div className="medium">Web Development: </div>
                   <div className="skilltag">HTML/CSS</div>
                   <div className="skilltag">Javescript</div>
