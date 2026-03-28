@@ -48,8 +48,8 @@ export default class Resume extends Component {
                     <li>Delivered ICV dummy training from runset structure, layer operations to unified fill</li>
                     <li>Automated a Runset Generator for simple non-tabu DRC rules from DRM with the use of <strong>Lark parser and transformer</strong></li>
                     <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to Fill in both Python and C/C++ version</li>
-                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimizes it through chunking</li>
-                    <li>Delivered GH Copilot set up training to 60+ signoff team members </li>
+                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into a graph and optimizes it through chunking</li>
+                    <li>Delivered GH Copilot set up training to 60+ signoff team members.</li>
                   </ul>
                   <div className="subtitle">Synopsys Inc - Application Engineering, Sr. Engineer</div>
                   <div className="year">Aug 2022 - Jan 2025</div>
