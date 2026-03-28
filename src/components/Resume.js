@@ -127,7 +127,7 @@ visualization system.</li>
                   </div>
                 </div>
                 <div className="subblock">
-                  <div className="subtitle">Intoduction to Psychology -- Keith Campbell</div>
+                  <div className="subtitle">Intoduction to Psychology - Keith Campbell</div>
                   <div className="year">Peterson Academy</div>
                   <img src="../../static/img/psychology-demo.gif" className="present-img" />
                 </div>
