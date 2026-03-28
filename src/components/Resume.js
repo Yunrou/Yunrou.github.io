@@ -46,10 +46,10 @@ export default class Resume extends Component {
                   <div className="year">Jan 2025 - Present</div>
                   <div className="medium">
                   <ul className="mylist">
-                    <li>Delivered ICV FEOL dummy training from runset structure, layer operations to unified fill</li>
+                    <li>Delivered ICV dummy training from runset structure, layer operations to unified fill</li>
                     <li>Automated a Runset Generator for simple non-tabu DRC rules from DRM with the use of <strong>Lark parser and transformer</strong></li>
                     <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to fill in both Python and C/C++ version</li>
-                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimizes through chunking</li>
+                    <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimizes it through chunking</li>
                     <li>Delivered GH Copilot training to 60+ signoff team members </li>
                   </ul>
                   </div>
@@ -61,7 +61,7 @@ export default class Resume extends Component {
                     <li>Optimized flow that achieves <strong>10X runset coding effort improvement</strong>.</li>
                     <li>Developed utilities that reduce 30% runtime and improve QoR in FEOL dummy</li>
                     <li>Identified and debugged design rule violations before tapeout, analyzed root causes, and implemented effective solutions</li>
-                    <li>Collaborated with the foundry and R&D to define requirements and qualify for new features</li>
+                    <li>Collaborated with the foundry and R&D to define requirements and qualify new features</li>
                   </ul>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ visualization system.</li>
                   <div className="medium">Programming Languages: </div>
                   <div className="skilltag">C/C++</div>
                   <div className="skilltag">Python</div>
-                  <div className="skilltag">PERL</div>
+                  <div className="skilltag">Perl</div>
                   <div className="skilltag">R</div>
                   <div className="skilltag">MATLAB</div>
                   
