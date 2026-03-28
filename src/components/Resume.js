@@ -44,18 +44,15 @@ export default class Resume extends Component {
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc - Application Engineering, Staff Engineer</div>
                   <div className="year">Jan 2025 - Present</div>
-                  <div className="medium">
                   <ul className="mylist">
                     <li>Delivered ICV dummy training from runset structure, layer operations to unified fill</li>
                     <li>Automated a Runset Generator for simple non-tabu DRC rules from DRM with the use of <strong>Lark parser and transformer</strong></li>
-                    <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to fill in both Python and C/C++ version</li>
+                    <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to Fill in both Python and C/C++ version</li>
                     <li>Prototyped an <strong>HGNN model</strong> that formulates design into graph and optimizes it through chunking</li>
-                    <li>Delivered GH Copilot training to 60+ signoff team members </li>
+                    <li>Delivered GH Copilot set up training to 60+ signoff team members </li>
                   </ul>
-                  </div>
                   <div className="subtitle">Synopsys Inc - Application Engineering, Sr. Engineer</div>
                   <div className="year">Aug 2022 - Jan 2025</div>
-                  <div className="medium">
                   <ul className="mylist">
                     <li>ICV runset coding and qualification for dummy fill insertion in advanced process.</li>
                     <li>Optimized flow that achieves <strong>10X runset coding effort improvement</strong>.</li>
@@ -63,7 +60,6 @@ export default class Resume extends Component {
                     <li>Identified and debugged design rule violations before tapeout, analyzed root causes, and implemented effective solutions</li>
                     <li>Collaborated with the foundry and R&D to define requirements and qualify new features</li>
                   </ul>
-                  </div>
                 </div>
               </div>
 
