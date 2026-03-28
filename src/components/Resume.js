@@ -43,8 +43,8 @@ export default class Resume extends Component {
                 <div className="title">Experience</div>
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc</div>
-                  <div className="medium">Application Engineering, Staff Engineer</div>
-                  <div className="medium"><div className="year">Jan 2025 - Present</div></div>
+                  <div className="medium">Application Engineering, Staff Engineer<div className="year">Jan 2025 - Present</div></div>
+                  
                   <div className="medium">
                   <ul className="mylist">
                     <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
