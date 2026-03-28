@@ -185,6 +185,7 @@ visualization system.</li>
                   <div className="skilltag">Git/GitHub</div>
                   <div className="skilltag">Latex</div>
                   <div className="skilltag">Unity</div>
+                  <div className="skilltag">Cursor</div>
                 </div>
               </div>
 
