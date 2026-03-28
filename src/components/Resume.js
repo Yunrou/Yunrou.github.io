@@ -43,8 +43,8 @@ export default class Resume extends Component {
                 <div className="title">Experience</div>
                 <div className="subblock">
                   <div className="subtitle">Synopsys Inc</div>
-                  <div className="medium">Application Engineering, Staff Engineer<div className="year">Jan 2025 - Present</div></div>
-                  
+                  <div className="subsubtitle">Application Engineering, Staff Engineer</div>
+                  <div className="year">Jan 2025 - Present</div>
                   <div className="medium">
                   <ul className="mylist">
                     <li>Delivered ICV FEOL dummy training from environment setup, runset structure, layer operations to unified fill</li>
@@ -54,9 +54,9 @@ export default class Resume extends Component {
                     <li>Delivered GH Copilot training to 60+ signoff team members </li>
                   </ul>
                   </div>
-                  <div className="medium">Application Engineering, Sr. Engineer</div>
-                  <div className="medium">
+                  <div className="subsubtitle">Application Engineering, Sr. Engineer</div>
                   <div className="year">Aug 2022 - Jan 2025</div>
+                  <div className="medium">
                   <ul className="mylist">
                     <li>ICV runset coding and qualification for dummy fill insertion in advanced process.</li>
                     <li>Optimized flow that achieves <strong>10X runset coding effort improvement</strong>.</li>

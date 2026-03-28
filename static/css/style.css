@@ -174,6 +174,15 @@ p {
     text-decoration: none;
     color: #d4d9d2;
 }
+.subsubtitle {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #d4d9d2;
+}
 .medium {
     display: block;
     font-family: "Lato";
