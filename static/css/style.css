@@ -230,6 +230,10 @@ p {
   .year {
     float: right;
   }
+  .year-medium {
+    font-size: 14px;
+    float: right;
+  }
 }
 @media only screen and (min-width: 1225px) {
   .foot-img {
