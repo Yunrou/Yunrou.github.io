@@ -16,20 +16,11 @@ export default class Home extends Component {
                 <div className="title">ABOUT ME</div>
                 <div className="medium">
                   <p>
-                    Hi, I am LILIAN! 
+                    Hi, I am LILIAN! Currently an Application Engineer in Physical Verification.
+                    With a deep fascination for logic and graphics, 
+                    I am helping teams build up infrastructure and navigate the complexities.
                     <br/><br/>
-                    I am a programmer with a passion for data science and multimedia engineering.
-                    In graduate school, my research focused on the color encodings for multi-view visualizations (e.g., dashboards), 
-                    and I developed an interactive recommendation tool that mainly deals with color consistency and color discriminability.
-                    <br/><br/>
-                    "Learning is a lifelong journey!" I enjoy acquiring new knowledge yet still have a long way to go.
-                    <br/><br/>
-                    In addition, I became an adaptable and open-minded team player via participating in social engagements and cooperation projects in school.
-                    In a team, I would like to listen to and organize others' 
-                    suggestions, comments, and ideas and also express my own opinions. 
-                    <br/><br/>
-                    Aside from being a software developer, I want to be a creator to create values and make contribution, like Hayao Miyazaki, 
-                    seeking inspirations, identifying the needs and limitations, and producing innovative products with clear concepts and definition.
+                    "Learning is a lifelong journey!" It is genuine joy in exploring new knowledge across diverse fields, keeping my insights fresh and sharp.
                   </p>
                 </div>
               </div>

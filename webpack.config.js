@@ -8,7 +8,10 @@ module.exports = {
         filename: 'main.js'
     },
     devServer: {
-        contentBase: './static'
+        contentBase: './static',
+        host: '127.0.0.1',
+        port: 8000,
+        open: true
     },
     // define babel loader
     module: {
