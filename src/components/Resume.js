@@ -34,6 +34,8 @@ export default class Resume extends Component {
                       Academics: GPA 3.9/4.3
                       <br/>
                       Teaching Assistant (TA): Numerical Method, 2019
+                      <br/>
+                      Vice Mentor @NCTU Blue Gear Program, Minister of Artistic Design Dept. @NCTU CS Student Associate, Director @NCTU UU Club
                     </p>
                   </div>
                 </div>
@@ -50,6 +52,8 @@ export default class Resume extends Component {
                     <li>Integrated timing-aware fill flow from <strong>RC extraction</strong>, <strong>STA</strong> to Fill in both Python and C/C++ version</li>
                     <li>Prototyped an <strong>HGNN model</strong> that formulates design into a graph and optimizes it through chunking</li>
                     <li>Delivered GH Copilot set up training to 60+ signoff team members.</li>
+                    <li>FY26 PurplePoster - Standalone ICV Timing-Aware Fill</li>
+                    <li>FY25 PurplePoster - Fillable Region Smooth for Signoff Fill Runtime and Quality</li>
                   </ul>
                   <div className="subtitle">Synopsys Inc - Application Engineering, Sr. Engineer</div>
                   <div className="year">Aug 2022 - Jan 2025</div>
@@ -59,6 +63,7 @@ export default class Resume extends Component {
                     <li>Developed utilities that reduce 30% runtime and improve QoR in FEOL dummy</li>
                     <li>Identified and debugged design rule violations before tapeout, analyzed root causes, and implemented effective solutions</li>
                     <li>Collaborated with the foundry and R&D to define requirements and qualify new features</li>
+                    <li>FY24 PurplePoster - Accelerate TSMC N2 runset development flow for expandable fill</li>
                   </ul>
                 </div>
               </div>
@@ -139,24 +144,6 @@ visualization system.</li>
                 </div>
               </div>
 
-              <div className="block">
-                <div className="title">LEADERSHIP</div>
-                  <div className="subblock">
-                  <div className="subtitle">Vice Mentor</div>
-                  <div className="year">2017 - 2018</div>
-                  <div className="medium">NCTU Blue Gear Program</div>
-                </div>
-                <div className="subblock">
-                  <div className="subtitle">Minister of Artistic Design Department</div>
-                  <div className="year">2017 - 2018</div>
-                  <div className="medium">NCTU - Student Association of Computer Science Dept.</div>
-                </div>
-                <div className="subblock">
-                  <div className="subtitle">Director</div>
-                  <div className="year">2016 - 2017</div>
-                  <div className="medium">NCTU - UU Club</div>
-                </div>
-              </div>
 
               <div className="block">
                 <div className="title">LANGUAGES</div>
